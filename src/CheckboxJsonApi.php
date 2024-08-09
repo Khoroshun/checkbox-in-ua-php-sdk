@@ -104,7 +104,7 @@ class CheckboxJsonApi
         ];
     }
 
-    private function setHeadersWithToken(string $token): void
+    public function setHeadersWithToken(string $token): void
     {
         $this->requestOptions['headers']['Authorization'] = 'Bearer ' . $token;
     }
@@ -196,7 +196,7 @@ class CheckboxJsonApi
     */
 
 
-    public function signInCashierViaPinCode(): void
+    public function signInCashierViaPinCode(): mixed
     {
         $options = $this->requestOptions;
         $options['body'] = \json_encode([
@@ -218,6 +218,8 @@ class CheckboxJsonApi
         $this->validateResponseStatus($jsonResponse, $response->getStatusCode());
 
         $this->setHeadersWithToken($jsonResponse['access_token']);
+
+        return $jsonResponse['access_token'];
     }
 
 
