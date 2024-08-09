@@ -1,9 +1,9 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Shifts;
+namespace khoroshun\Checkbox\Mappers\Shifts;
 
-use igorbunov\Checkbox\Mappers\MetaMapper;
-use igorbunov\Checkbox\Models\Shifts\Shifts;
+use khoroshun\Checkbox\Mappers\MetaMapper;
+use khoroshun\Checkbox\Models\Shifts\Shifts;
 
 class ShiftsMapper
 {

@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\Receipts\ReceiptMapper;
-use igorbunov\Checkbox\Mappers\Receipts\SellReceiptMapper;
-use igorbunov\Checkbox\Mappers\Receipts\Taxes\GoodTaxMapper;
-use igorbunov\Checkbox\Models\Receipts\Delivery;
-use igorbunov\Checkbox\Models\Receipts\Goods\GoodItemModel;
-use igorbunov\Checkbox\Models\Receipts\Goods\GoodModel;
-use igorbunov\Checkbox\Models\Receipts\Goods\Goods;
-use igorbunov\Checkbox\Models\Receipts\Payments\CardPaymentPayload;
-use igorbunov\Checkbox\Models\Receipts\Payments\CashPaymentPayload;
-use igorbunov\Checkbox\Models\Receipts\Payments\Payments;
-use igorbunov\Checkbox\Models\Receipts\SellReceipt;
-use igorbunov\Checkbox\Models\Receipts\Taxes\GoodTaxes;
+use khoroshun\Checkbox\Mappers\Receipts\ReceiptMapper;
+use khoroshun\Checkbox\Mappers\Receipts\SellReceiptMapper;
+use khoroshun\Checkbox\Mappers\Receipts\Taxes\GoodTaxMapper;
+use khoroshun\Checkbox\Models\Receipts\Delivery;
+use khoroshun\Checkbox\Models\Receipts\Goods\GoodItemModel;
+use khoroshun\Checkbox\Models\Receipts\Goods\GoodModel;
+use khoroshun\Checkbox\Models\Receipts\Goods\Goods;
+use khoroshun\Checkbox\Models\Receipts\Payments\CardPaymentPayload;
+use khoroshun\Checkbox\Models\Receipts\Payments\CashPaymentPayload;
+use khoroshun\Checkbox\Models\Receipts\Payments\Payments;
+use khoroshun\Checkbox\Models\Receipts\SellReceipt;
+use khoroshun\Checkbox\Models\Receipts\Taxes\GoodTaxes;
 use PHPUnit\Framework\TestCase;
 
 class SellReceiptTest extends TestCase

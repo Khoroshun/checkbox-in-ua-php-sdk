@@ -1,9 +1,9 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Receipts\Payments;
+namespace khoroshun\Checkbox\Mappers\Receipts\Payments;
 
-use igorbunov\Checkbox\Models\Receipts\Payments\CashPaymentPayload;
-use igorbunov\Checkbox\Models\Receipts\Payments\PaymentParent;
+use khoroshun\Checkbox\Models\Receipts\Payments\CashPaymentPayload;
+use khoroshun\Checkbox\Models\Receipts\Payments\PaymentParent;
 
 class CashPaymentMapper
 {

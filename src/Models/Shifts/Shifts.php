@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Shifts;
+namespace khoroshun\Checkbox\Models\Shifts;
 
-use igorbunov\Checkbox\Models\Meta;
+use khoroshun\Checkbox\Models\Meta;
 
 class Shifts
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Shifts;
+namespace khoroshun\Checkbox\Mappers\Shifts;
 
-use igorbunov\Checkbox\Models\Shifts\Payment;
+use khoroshun\Checkbox\Models\Shifts\Payment;
 
 class PaymentMapper
 {

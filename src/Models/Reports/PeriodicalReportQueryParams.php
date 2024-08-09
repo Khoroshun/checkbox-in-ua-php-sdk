@@ -1,6 +1,6 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Reports;
+namespace khoroshun\Checkbox\Models\Reports;
 
 class PeriodicalReportQueryParams
 {

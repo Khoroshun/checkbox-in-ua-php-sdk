@@ -1,6 +1,6 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Receipts\Payments;
+namespace khoroshun\Checkbox\Models\Receipts\Payments;
 
 class PaymentParent
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Shifts;
+namespace khoroshun\Checkbox\Models\Shifts;
 
 class Tax
 {

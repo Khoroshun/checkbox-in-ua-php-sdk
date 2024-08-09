@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\Receipts\ReceiptMapper;
+use khoroshun\Checkbox\Mappers\Receipts\ReceiptMapper;
 use PHPUnit\Framework\TestCase;
 
 class GetReceiptTest extends TestCase

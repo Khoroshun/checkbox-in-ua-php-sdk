@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Models\Reports\ReportsQueryParams;
+use khoroshun\Checkbox\Models\Reports\ReportsQueryParams;
 use PHPUnit\Framework\TestCase;
 
 class ReportsQueryParamsTest extends TestCase

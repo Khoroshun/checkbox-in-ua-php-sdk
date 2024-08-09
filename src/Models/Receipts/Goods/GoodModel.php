@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Receipts\Goods;
+namespace khoroshun\Checkbox\Models\Receipts\Goods;
 
-use igorbunov\Checkbox\Models\Receipts\Taxes\GoodTaxes;
+use khoroshun\Checkbox\Models\Receipts\Taxes\GoodTaxes;
 
 class GoodModel
 {

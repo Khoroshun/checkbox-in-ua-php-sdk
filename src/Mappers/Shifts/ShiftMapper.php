@@ -1,10 +1,10 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Shifts;
+namespace khoroshun\Checkbox\Mappers\Shifts;
 
-use igorbunov\Checkbox\Mappers\Cashier\CashierMapper;
-use igorbunov\Checkbox\Mappers\CashRegisters\CashRegisterMapper;
-use igorbunov\Checkbox\Models\Shifts\Shift;
+use khoroshun\Checkbox\Mappers\Cashier\CashierMapper;
+use khoroshun\Checkbox\Mappers\CashRegisters\CashRegisterMapper;
+use khoroshun\Checkbox\Models\Shifts\Shift;
 
 class ShiftMapper
 {

@@ -1,12 +1,12 @@
 {
-  "name": "igorbunov/checkbox-in-ua-php-sdk",
+  "name": "khoroshun/checkbox-in-ua-php-sdk",
   "description": "PHP SDK for integration with checkbox.in.ua api",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "igorbunov",
-      "email": "igorbunov.ua@mail.com"
+      "name": "khoroshun",
+      "email": "a.s.khoroshun@gmail.com"
     }
   ],
   "minimum-stability": "dev",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "igorbunov\\Checkbox\\" : "src"
+      "khoroshun\\Checkbox\\" : "src"
     }
   },
   "scripts": {

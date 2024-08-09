@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\Shifts\ShiftsMapper;
+use khoroshun\Checkbox\Mappers\Shifts\ShiftsMapper;
 use PHPUnit\Framework\TestCase;
 
 class ShiftsTest extends TestCase

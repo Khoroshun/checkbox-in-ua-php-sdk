@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Receipts;
+namespace khoroshun\Checkbox\Models\Receipts;
 
-use igorbunov\Checkbox\Models\Meta;
+use khoroshun\Checkbox\Models\Meta;
 
 class Receipts
 {

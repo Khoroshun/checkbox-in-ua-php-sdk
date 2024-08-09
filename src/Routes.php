@@ -1,13 +1,13 @@
 <?php
 
-namespace igorbunov\Checkbox;
+namespace khoroshun\Checkbox;
 
-use igorbunov\Checkbox\Models\CashRegisters\CashRegistersQueryParams;
-use igorbunov\Checkbox\Models\Receipts\ReceiptsQueryParams;
-use igorbunov\Checkbox\Models\Reports\PeriodicalReportQueryParams;
-use igorbunov\Checkbox\Models\Reports\ReportsQueryParams;
-use igorbunov\Checkbox\Models\Shifts\ShiftsQueryParams;
-use igorbunov\Checkbox\Models\Transactions\TransactionsQueryParams;
+use khoroshun\Checkbox\Models\CashRegisters\CashRegistersQueryParams;
+use khoroshun\Checkbox\Models\Receipts\ReceiptsQueryParams;
+use khoroshun\Checkbox\Models\Reports\PeriodicalReportQueryParams;
+use khoroshun\Checkbox\Models\Reports\ReportsQueryParams;
+use khoroshun\Checkbox\Models\Shifts\ShiftsQueryParams;
+use khoroshun\Checkbox\Models\Transactions\TransactionsQueryParams;
 
 class Routes
 {

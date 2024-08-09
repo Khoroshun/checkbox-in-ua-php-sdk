@@ -1,9 +1,9 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Transactions;
+namespace khoroshun\Checkbox\Mappers\Transactions;
 
-use igorbunov\Checkbox\Mappers\MetaMapper;
-use igorbunov\Checkbox\Models\Transactions\Transactions;
+use khoroshun\Checkbox\Mappers\MetaMapper;
+use khoroshun\Checkbox\Models\Transactions\Transactions;
 
 class TransactionsMapper
 {

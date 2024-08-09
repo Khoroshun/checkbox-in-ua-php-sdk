@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\Transactions\TransactionsMapper;
+use khoroshun\Checkbox\Mappers\Transactions\TransactionsMapper;
 use PHPUnit\Framework\TestCase;
 
 class GetTransactionsTest extends TestCase

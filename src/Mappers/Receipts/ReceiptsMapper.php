@@ -1,9 +1,9 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Receipts;
+namespace khoroshun\Checkbox\Mappers\Receipts;
 
-use igorbunov\Checkbox\Mappers\MetaMapper;
-use igorbunov\Checkbox\Models\Receipts\Receipts;
+use khoroshun\Checkbox\Mappers\MetaMapper;
+use khoroshun\Checkbox\Models\Receipts\Receipts;
 
 class ReceiptsMapper
 {

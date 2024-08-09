@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Receipts;
+namespace khoroshun\Checkbox\Mappers\Receipts;
 
-use igorbunov\Checkbox\Models\Receipts\ReceiptTypes;
+use khoroshun\Checkbox\Models\Receipts\ReceiptTypes;
 
 class ReceiptTypeMapper
 {

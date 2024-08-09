@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Cashier;
+namespace khoroshun\Checkbox\Mappers\Cashier;
 
-use igorbunov\Checkbox\Models\Cashier\Cashier;
+use khoroshun\Checkbox\Models\Cashier\Cashier;
 
 class CashierMapper
 {

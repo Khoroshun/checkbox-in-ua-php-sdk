@@ -1,6 +1,6 @@
 <?php
 
-namespace igorbunov\Checkbox;
+namespace khoroshun\Checkbox;
 
 class Config
 {

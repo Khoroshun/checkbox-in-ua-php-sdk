@@ -1,10 +1,10 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Receipts;
+namespace khoroshun\Checkbox\Models\Receipts;
 
-use igorbunov\Checkbox\Models\Receipts\Discounts\Discounts;
-use igorbunov\Checkbox\Models\Receipts\Goods\Goods;
-use igorbunov\Checkbox\Models\Receipts\Payments\Payments;
+use khoroshun\Checkbox\Models\Receipts\Discounts\Discounts;
+use khoroshun\Checkbox\Models\Receipts\Goods\Goods;
+use khoroshun\Checkbox\Models\Receipts\Payments\Payments;
 
 class SellReceipt
 {

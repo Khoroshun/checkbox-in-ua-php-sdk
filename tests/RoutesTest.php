@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox;
+namespace khoroshun\Checkbox;
 
 use PHPUnit\Framework\TestCase;
 

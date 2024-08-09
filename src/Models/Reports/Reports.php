@@ -1,9 +1,9 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Reports;
+namespace khoroshun\Checkbox\Models\Reports;
 
-use igorbunov\Checkbox\Models\Meta;
-use igorbunov\Checkbox\Models\Shifts\ZReport;
+use khoroshun\Checkbox\Models\Meta;
+use khoroshun\Checkbox\Models\Shifts\ZReport;
 
 class Reports
 {

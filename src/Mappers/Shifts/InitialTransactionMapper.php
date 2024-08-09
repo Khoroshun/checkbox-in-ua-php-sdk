@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Shifts;
+namespace khoroshun\Checkbox\Mappers\Shifts;
 
-use igorbunov\Checkbox\Models\Shifts\InitialTransaction;
+use khoroshun\Checkbox\Models\Shifts\InitialTransaction;
 
 class InitialTransactionMapper
 {

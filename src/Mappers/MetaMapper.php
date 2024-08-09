@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Models\Meta;
+use khoroshun\Checkbox\Models\Meta;
 
 class MetaMapper
 {

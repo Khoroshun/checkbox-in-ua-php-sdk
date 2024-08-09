@@ -1,9 +1,9 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Shifts;
+namespace khoroshun\Checkbox\Models\Shifts;
 
-use igorbunov\Checkbox\Models\Cashier\Cashier;
-use igorbunov\Checkbox\Models\CashRegisters\CashRegister;
+use khoroshun\Checkbox\Models\Cashier\Cashier;
+use khoroshun\Checkbox\Models\CashRegisters\CashRegister;
 
 class Shift
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Receipts;
+namespace khoroshun\Checkbox\Models\Receipts;
 
-use igorbunov\Checkbox\Models\Receipts\Payments\PaymentParent;
+use khoroshun\Checkbox\Models\Receipts\Payments\PaymentParent;
 
 class ServiceReceipt
 {

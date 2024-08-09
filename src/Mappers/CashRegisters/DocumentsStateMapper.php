@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\CashRegisters;
+namespace khoroshun\Checkbox\Mappers\CashRegisters;
 
-use igorbunov\Checkbox\Models\CashRegisters\DocumentsState;
+use khoroshun\Checkbox\Models\CashRegisters\DocumentsState;
 
 class DocumentsStateMapper
 {

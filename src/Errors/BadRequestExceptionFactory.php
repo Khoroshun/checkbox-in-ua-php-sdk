@@ -1,6 +1,6 @@
 <?php
 
-namespace igorbunov\Checkbox\Errors;
+namespace khoroshun\Checkbox\Errors;
 
 class BadRequestExceptionFactory
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Shifts;
+namespace khoroshun\Checkbox\Mappers\Shifts;
 
-use igorbunov\Checkbox\Models\Shifts\ClosingTransaction;
+use khoroshun\Checkbox\Models\Shifts\ClosingTransaction;
 
 class ClosingTransactionMapper
 {

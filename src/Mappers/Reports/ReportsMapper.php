@@ -1,10 +1,10 @@
 <?php
 
-namespace igorbunov\Checkbox\Mappers\Reports;
+namespace khoroshun\Checkbox\Mappers\Reports;
 
-use igorbunov\Checkbox\Mappers\MetaMapper;
-use igorbunov\Checkbox\Mappers\Shifts\ZReportMapper;
-use igorbunov\Checkbox\Models\Reports\Reports;
+use khoroshun\Checkbox\Mappers\MetaMapper;
+use khoroshun\Checkbox\Mappers\Shifts\ZReportMapper;
+use khoroshun\Checkbox\Models\Reports\Reports;
 
 class ReportsMapper
 {

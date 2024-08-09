@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Models\Receipts\ReceiptsQueryParams;
+use khoroshun\Checkbox\Models\Receipts\ReceiptsQueryParams;
 use PHPUnit\Framework\TestCase;
 
 class ReceiptsQueryParamsTest extends TestCase

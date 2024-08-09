@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\Shifts\ZReportMapper;
+use khoroshun\Checkbox\Mappers\Shifts\ZReportMapper;
 use PHPUnit\Framework\TestCase;
 
 class GetReportTest extends TestCase

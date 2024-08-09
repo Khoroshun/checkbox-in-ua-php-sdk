@@ -1,13 +1,13 @@
 <?php
 
-namespace igorbunov\Checkbox\Models\Receipts;
+namespace khoroshun\Checkbox\Models\Receipts;
 
-use igorbunov\Checkbox\Models\Receipts\Discounts\Discounts;
-use igorbunov\Checkbox\Models\Receipts\Goods\Goods;
-use igorbunov\Checkbox\Models\Receipts\Payments\Payments;
-use igorbunov\Checkbox\Models\Receipts\Taxes\GoodTaxes;
-use igorbunov\Checkbox\Models\Shifts\Shift;
-use igorbunov\Checkbox\Models\Transactions\Transaction;
+use khoroshun\Checkbox\Models\Receipts\Discounts\Discounts;
+use khoroshun\Checkbox\Models\Receipts\Goods\Goods;
+use khoroshun\Checkbox\Models\Receipts\Payments\Payments;
+use khoroshun\Checkbox\Models\Receipts\Taxes\GoodTaxes;
+use khoroshun\Checkbox\Models\Shifts\Shift;
+use khoroshun\Checkbox\Models\Transactions\Transaction;
 
 class Receipt
 {

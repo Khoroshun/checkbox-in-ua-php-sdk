@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\CashRegisters\CashRegistersMapper;
+use khoroshun\Checkbox\Mappers\CashRegisters\CashRegistersMapper;
 use PHPUnit\Framework\TestCase;
 
 class CashRegistersTest extends TestCase

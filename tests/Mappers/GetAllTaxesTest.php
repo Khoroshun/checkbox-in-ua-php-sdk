@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace igorbunov\Checkbox\Mappers;
+namespace khoroshun\Checkbox\Mappers;
 
-use igorbunov\Checkbox\Mappers\Receipts\Taxes\GoodTaxesMapper;
+use khoroshun\Checkbox\Mappers\Receipts\Taxes\GoodTaxesMapper;
 use PHPUnit\Framework\TestCase;
 
 class GetAllTaxesTest extends TestCase
