@@ -43,7 +43,9 @@ $config = new \khoroshun\Checkbox\Config([
     \khoroshun\Checkbox\Config::LOGIN => 'логин кассира',
     \khoroshun\Checkbox\Config::PASSWORD => 'пароль кассира', //or
     \khoroshun\Checkbox\Config::PINCODE => 02301230440,
-    \khoroshun\Checkbox\Config::LICENSE_KEY => 'ключ лицензии кассы'
+    \khoroshun\Checkbox\Config::LICENSE_KEY => 'ключ лицензии кассы',
+    \khoroshun\Checkbox\Config::HEADER_CLIENT_NAME => 'Khoroshun Custom SDK',
+    \khoroshun\Checkbox\Config::HEADER_CLIENT_VERSION => '1.0.2',
 ]);
 ```
 

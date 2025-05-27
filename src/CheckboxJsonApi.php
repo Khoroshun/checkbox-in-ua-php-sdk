@@ -99,7 +99,9 @@ class CheckboxJsonApi
             'connect_timeout' => $this->connectTimeout,
             'headers' => [
                 'Content-Type' => 'application/json',
-                'X-License-Key' => $this->config->get('licenseKey')
+                'X-License-Key' => $this->config->get(Config::LICENSE_KEY),
+                'X-Client-Name' => $this->config->get(Config::HEADER_CLIENT_NAME),
+                'X-Client-Version' => $this->config->get(Config::HEADER_CLIENT_VERSION),
             ]
         ];
     }
@@ -588,14 +590,11 @@ class CheckboxJsonApi
 
     public function createXReport(): ?ZReport
     {
-        $options = $this->requestOptions;
-        $options['headers']['X-Client-Name'] = 'khoroshun Custom SDK';
-        $options['headers']['X-Client-Version'] = '1.0.0';
 
         $response = $this->sendRequest(
             self::METHOD_POST,
             $this->routes->createXReport(),
-            $options
+            $this->requestOptions
         );
 
         $jsonResponse = json_decode($response->getBody()->getContents(), true);
